@@ -1,0 +1,38 @@
+header{
+    margin: auto;
+    padding-top:5px;
+}
+
+#cool-blue{
+    background-color: #2d5dcc;
+    color:white;
+}
+#pink{
+    background-color: #d957d9;
+}
+#mint-green{
+    background-color: #4fe0b0;
+}
+#beige{
+    background-color: #efd9ca;
+}
+.colors{
+    height: 400px;
+    margin: 0px auto;
+    border:1px solid gray;
+    
+}
+
+.color-block{
+    display:inline-block;
+    height:100px;
+    width:32%;
+    text-align: center;
+    margin: 15px auto
+}
+
+body{
+    margin:auto;
+    width:80%;
+    border:1px solid gray;
+}
