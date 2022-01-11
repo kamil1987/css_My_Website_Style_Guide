@@ -3,6 +3,19 @@ header{
     padding-top:5px;
 }
 
+h1{
+    font-family: 'Nunito Sans';
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h2{
+    font-family: 'Nunito Sans';
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 24px;
+}
 #cool-blue{
     background-color: #2d5dcc;
     color:white;
@@ -19,7 +32,8 @@ header{
 .colors{
     height: 400px;
     margin: 0px auto;
-    border:1px solid gray;
+    border:2px solid gray;
+    padding:10px;
     
 }
 
@@ -34,5 +48,65 @@ header{
 body{
     margin:auto;
     width:80%;
-    border:1px solid gray;
+}
+
+.fonts{
+    height: 450px;
+    margin: 10px auto;
+    border:2px solid gray;
+    padding:10px;
+}
+
+.font-block{
+    display:inline-block;
+    height:100px;
+    width:49%;
+    text-align: left;
+    margin: 15px auto
+}
+.font-block >  p:first-of-type{
+    text-decoration: underline;
+    /*letter-spacing: 2px;*/
+    font-size: 20px;
+}
+
+#source-code-pro > p:first-of-type {
+    font-family: 'Source Code Pro';
+   
+  }
+
+  #nunito-sans > p:first-of-type {
+    font-family: 'Nunito Sans';
+
+  }
+  #poppins> p:first-of-type {
+    font-family: 'Poppins';
+  }
+  
+  #poppins > p:first-of-type {
+    text-decoration: underline;
+  }
+
+  .font-block > P:nth-last-of-type(2){
+    font-weight: 700;
+  }
+  .font-block > P:nth-last-of-type(1){
+    font-family: 'Nunito Sans';
+    font-style: italic;
+  }
+
+.text-styles{
+    height: 450px;
+    margin: 10px auto;
+    border:2px solid gray;
+    padding:10px;
+}
+
+li{
+    font-family: 'Nunito Sans';
+}
+
+#subheading > h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px
 }
